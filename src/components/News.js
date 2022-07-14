@@ -46,7 +46,6 @@ export class News extends Component {
   }
   render() {
     return (
-      <>
       <div className="container my-3">
       <h2>Top stories <i className="bi bi-arrow-right"></i> </h2>
       {this.state.loading && <div className="d-flex justify-content-center my-3"><Spinner/></div>}
@@ -58,11 +57,10 @@ export class News extends Component {
         })}
       </div>
       <div className="d-flex justify-content-center" role="group" aria-label="Basic pagination">
-        <button onClick={this.handlerPrev} disabled={this.state.page <= 1} type="button" className="btn btn-outline-primary"><i className="bi bi-arrow-left"></i></button>
-        <button onClick={this.handlerNxt} disabled={this.state.page >= Math.ceil(this.state.totalResults/21)} type="button" className="btn btn-outline-primary"><i className="bi bi-arrow-right"></i></button>
+        <button onClick={this.handlerPrev} disabled={this.state.page <= 1} type="button" className="btn btn-light"><i className="bi bi-arrow-left"></i></button>
+        <button onClick={this.handlerNxt} disabled={this.state.page >= Math.ceil(this.state.totalResults/21)} type="button" className="btn btn-light"><i className="bi bi-arrow-right"></i></button>
       </div>
       </div>
-      </>
     )
   }
 }

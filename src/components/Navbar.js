@@ -4,7 +4,8 @@ import newwsLogo from './../images/apple-touch-icon.png'
 export class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg bg-light fixed-top">
+            <>
+            <nav className="navbar navbar-expand-lg bg-light sticky-top">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
                     <img src={newwsLogo} alt="" width="30" height="24" className="d-inline-block align-text-center"/>
@@ -26,6 +27,7 @@ export class Navbar extends Component {
                     </div>
                 </div>
             </nav>
+            </>
         )
     }
 }
