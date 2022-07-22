@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+a.card-link:link {text-decoration: none; color:#282c34;}
+a.card-link:visited {text-decoration: none; color:#282c34;}
+a.card-link:hover {background-color: rgb(236, 231, 231);}
