@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Newws
+Newws is no-frills news aggregator WebApp. It presents a continuous flow of links to articles organized from thousands of publishers and magazines.
+
+![Web view](./app-previews/web-view.png "Web view")
+
+![Mobile view](./app-previews/mobile-view.png "Mobile view")
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
