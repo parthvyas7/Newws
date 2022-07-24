@@ -31,7 +31,7 @@ export class NewsItem extends Component {
     let {title, description, imgUrl, artUrl, publishedAt, source} = this.props;
     return (
         <div className="card my-3">
-          <img src={imgUrl?imgUrl:altImg}  className="card-img-top" alt="Oops! dropped in the way"/>
+          <img src={imgUrl?imgUrl:altImg} className="card-img-top" alt="Oops! dropped in the way"/>
             <div className="card-body">
               <h6 className="card-subtitle mb-2 text-muted">{source}</h6>
               <h5 className="card-title"><a href={artUrl} target="_blank" className="card-link">{title}...</a></h5>

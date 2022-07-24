@@ -1,14 +1,9 @@
 import React, { Component } from 'react'
 import newwsLogo from './../images/apple-touch-icon.png'
 import { Link } from "react-router-dom";
-import News from './News';
 
 export class Navbar extends Component {
     render() {
-        const handlerSrch = ()=>{
-            let qry=document.getElementById("qry").value;
-            // Time milenga toh krunga
-        };
         return (
             <>
                 <nav className="navbar navbar-expand-lg bg-light sticky-top">
@@ -30,10 +25,6 @@ export class Navbar extends Component {
                                 <Link className="nav-link" to="/technology">Technology</Link>
                             </div>
                         </div>
-                        {/* <form className="d-flex" role="search">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="qry"/>
-                            <button className="btn btn-light" type="submit" onClick={handlerSrch}><i className="bi bi-search"></i></button>
-                        </form> */}
                     </div>
                 </nav>
             </>
