@@ -34,7 +34,7 @@ export class NewsItem extends Component {
           <img src={imgUrl?imgUrl:altImg} className="card-img-top" alt="Oops! dropped in the way"/>
             <div className="card-body">
               <h6 className="card-subtitle mb-2 text-muted">{source}</h6>
-              <h5 className="card-title"><a href={artUrl} target="_blank" className="card-link">{title}...</a></h5>
+              <h5 className="card-title"><a href={artUrl} target="_blank" rel="noreferrer" className="card-link">{title}...</a></h5>
               <p className="card-text">{description}...</p>
               <p className="card-text"><small className="text-muted">{timeAgo(new Date(publishedAt).getTime())}</small></p>              
             </div>
