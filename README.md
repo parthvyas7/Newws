@@ -7,8 +7,8 @@
 
 > Newws App is a news aggregator React app that allows users to browse articles from various publishers and magazines. The app is built using React.js and consumes data from the NewsAPI. Users can view articles by source or category, and can also search for articles based on keywords. The app also includes a feature to save articles for later reading.
 
-![Web view](./app-previews/Web.gif "Web view")
-![Mobile view](./app-previews/MobileWeb.gif "Mobile view")
+<img alt="Web view" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWI5OWU0NTViM2JhMWZmODM0MjEwNTA4NTE5ZDliNzc1NTc1YzgyNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/xqbAf3KOOD9FatS9sP/giphy.gif">
+<img alt="Mobile view" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmZjYWQ0MDI3Zjg0NTBkNjM2N2Q0NGU0ZmEwNzY4Yzk3MTNiNmY1ZSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/efkrw7b7aKRHDTTI3b/giphy.gif">
 
 ## Features
 - Browse articles from various publishers and magazines
