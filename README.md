@@ -1,26 +1,34 @@
-<h1 align="center">Welcome to newws 👋</h1>
+<h1 align="center">Welcome to Newws App👋</h1>
 <p>
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/parthvyas7/newws">
     <a href="https://unlicense.org" target="_blank"><img alt="License: UNLICENSE" src="https://img.shields.io/badge/License-UNLICENSE-yellow.svg" /></a>
 
 </p>
 
-> Newws is no-frills news aggregator WebApp. It presents a continuous flow of links to articles organized from thousands of publishers and magazines.
+> Newws App is a news aggregator React app that allows users to browse articles from various publishers and magazines. The app is built using React.js and consumes data from the NewsAPI. Users can view articles by source or category, and can also search for articles based on keywords. The app also includes a feature to save articles for later reading.
 
 ![Web view](./app-previews/Web.gif "Web view")
 ![Mobile view](./app-previews/MobileWeb.gif "Mobile view")
 
-## Install
-
-```sh
-npm install
-```
+## Features
+- Browse articles from various publishers and magazines
+- View articles by source or category
+- Search for articles based on keywords
+- Save articles for later reading 
 
 ## Usage
+> To use this app, you can clone this repository and run the app locally on your machine. To run the app locally, you will need to have Node.js and npm installed on your machine. Then, follow these steps:
 
-```sh
-npm run start
-```
+1. Clone this repository to your local machine using `git clone https://github.com/parthvyas7/Newws.git`
+2. Navigate to the cloned repository directory using `cd Newws`
+3. Install the required dependencies using `npm install`
+4. Start the development server using `npm start`
+5. Open your web browser and navigate to `http://localhost:3000`
+
+## Technologies Used
+- React.js
+- Axios
+- NewsAPI
 
 ## Author
 
